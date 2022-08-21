@@ -139,9 +139,9 @@ int main() {
     srand(static_cast<unsigned>(time(NULL)));
     
     
-    cout << "Hey bitch, welcome to shut the box!" << '\n' << endl;
-    cout << "How many bitches are going to be playing?" << '\n';
-    cout << "Bitches: ";
+    cout << "Hey, welcome to shut the box!" << '\n' << endl;
+    cout << "How many people are going to be playing?" << '\n';
+    cout << "People: ";
     
     cin >> player_num;
     players.reserve(player_num);
@@ -209,6 +209,6 @@ int main() {
     }
     cout << "Game over! Someone scored over 100!" << endl;
     cout << "The winner is " << winner_name << "!" << endl;
-    cout << "Thanks for playing hoes :P" << endl;
+    cout << "Thanks for playing :P" << endl;
     return 0;
 }
